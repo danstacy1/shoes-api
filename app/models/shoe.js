@@ -3,7 +3,7 @@
 
 const mongoose = require('mongoose')
 
-// const shoeSchema = require('./shoe')
+const shoelaceSchema = require('./shoelace')
 
 const { Schema, model } = mongoose
 const shoeSchema = new Schema(
@@ -29,7 +29,7 @@ const shoeSchema = new Schema(
             required: true
         },
 
-        // toys: [toySchema],
+        shoelaces: [shoelaceSchema],
         owner: {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User'
