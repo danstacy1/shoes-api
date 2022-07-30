@@ -1,7 +1,7 @@
 {
-  "name": "shoes-mongoose-boilerplate",
+  "name": "shoes-api",
   "version": "1.0.0",
-  "description": "A fun lil api server for shoes",
+  "description": "A fun lil api server having to do with shoes",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
