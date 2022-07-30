@@ -48,7 +48,7 @@ const shoeSchema = new Schema(
 shoeSchema.virtual('fullTitle').get(function () {
     // in here, we can do whatever javascripty things we want, to make sure we return some value that will be assigned to this virtual
     // fullTitle is going to combine the brand and name to build a title
-    return `${this.brand} the ${this.name}`
+    return `${this.brand} ${this.name} ${this.color}`
 })
 
 
