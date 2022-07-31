@@ -15,7 +15,7 @@ const startShoes = [
     { brand: 'adidas', name: 'Yeezy Boost 350 V2', color: 'White/Black/Red', style: 'Running', forsale: true},
     { brand: 'Vans', name: 'Old Skool Classic', color: 'Black/White', style: 'Skating', forsale: true},
     { brand: 'Crocs', name: 'Classic Clog', color: 'Tie-Dye', style: 'Leisure', forsale: true},
-    { brand: 'Chaco', name: 'Z Cloud ', color: 'Grey/Yellow/Red', style: 'Sandels', forsale: false}
+    { brand: 'Chaco', name: 'Z Cloud', color: 'Grey/Yellow/Red', style: 'Sandels', forsale: false}
 ]
 
 // first we need to connect to the database
