@@ -4,8 +4,9 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 // require route files
-const exampleRoutes = require('./app/routes/example_routes')
 const shoeRoutes = require('./app/routes/shoe_routes')
+const shoelaceRoutes = require('./app/routes/shoelace_routes')
+const exampleRoutes = require('./app/routes/example_routes')
 const userRoutes = require('./app/routes/user_routes')
 
 // require middleware
@@ -67,6 +68,7 @@ app.use(requestLogger)
 
 // register route files
 app.use(shoeRoutes)
+app.use(shoelaceRoutes)
 app.use(exampleRoutes)
 app.use(userRoutes)
 

@@ -15,8 +15,8 @@ const router = express.Router()
 // we only need three, and we want to set them up using the same conventions as our other routes, which means we might need to refer to those other files to make sure we're using our middleware correctly
 
 // POST -> create a shoelace
-// POST /shoelaces/<shoe>
-router.post('/shoelaces/:shoeId', removeBlanks, (req, res, next) => {
+// POST /shoelaces/<shoe_id>
+router.post('/shoelaces/:shoeId', removeBlanks, requireToken, (req, res, next) => {
     // get our shoelace from req.body
     const shoelace = req.body.shoelace
     // get our shoe's id from req.params.shoeId

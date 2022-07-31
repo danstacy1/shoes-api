@@ -1,5 +1,5 @@
 // Shoe -> have an owner field, that is a user
-// eventaully we'll add an array of toy subdocuments
+// eventaully we'll add an array of shoelace subdocuments
 
 const mongoose = require('mongoose')
 
