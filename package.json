@@ -4,7 +4,7 @@
   "description": "A fun lil api server having to do with shoes",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node ./app/models/seed.js"
   },
